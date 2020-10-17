@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Daily To Do List</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<nav class="zone red">
+		<p class="main-nav"><span id="datetime"></span></p>
+	</nav>
+	<h1>Daily Todo List</h1>
+	<input id="userinput" type="text" placeholder="enter task">
+	<select id="select" name="What Priority?">
+		<option selected="selected" value="Pick Priority">Pick Priority Level</option>
+		<option value="priority1">Priority Level 1</option>
+		<option value="priority2">Priority Level 2</option>
+		<option value="priority3">Priority Level 3</option>
+	</select>
+	<button id="enter">Enter</button>
+	
+	<div class="zone blue li-wrapper">
+		<h2>Priority Level 1</h2>
+		<div class="listbox" id="priority1">
+			<ul id="p1">
+
+			</ul>
+		</div>
+		<h3>Priority Level 2</h3>
+		<div class="listbox" id="priority2">
+			<ul id="p2">
+
+			</ul>
+		</div>
+		<h4>Priority Level 3</h4>
+		<div class="listbox" id="priority3">
+			<ul id="p3">
+
+			</ul>
+		</div>
+	</div>
+
+	<footer class="zone yellow">Prototype Website 1.0 by Jonathan Lakind</footer>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
